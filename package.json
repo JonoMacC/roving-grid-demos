@@ -9,5 +9,8 @@
   "license": "MIT",
   "devDependencies": {
     "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "roving-grid-ux": "^1.0.0"
   }
 }
