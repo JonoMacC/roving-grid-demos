@@ -83,7 +83,7 @@ html {
 }
 
 :root {
-  color-scheme: light;
+  color-scheme: light dark;
 
   /* Semantic */
   --shadow: var(--gray-400);
@@ -109,7 +109,6 @@ html {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    color-scheme: dark;
     --shadow: var(--black);
     --surface-000: var(--black);
     --surface-100: var(--gray-900);
@@ -130,52 +129,6 @@ html {
     --tip-text: var(--blue-200);
     --tip-info: var(--blue-400);
   }
-}
-
-[color-scheme="light"] {
-  color-scheme: light;
-  --shadow: var(--gray-400);
-  --surface-000: var(--white);
-  --surface-100: var(--gray-000);
-  --surface-200: var(--gray-100);
-  --surface-300: var(--gray-200);
-  --surface-400: var(--gray-300);
-  --surface-500: var(--gray-400);
-  --focus: var(--blue-500);
-  --hover: var(--blue-200);
-  --active: var(--blue-100);
-  --text: var(--black);
-  --text-hover: var(--gray-700);
-  --text-light: var(--gray-500);
-  --text-faint: var(--gray-300);
-  --text-output: var(--yellow-900);
-  --tip-surface: var(--blue-100);
-  --tip-border: var(--blue-300);
-  --tip-text: var(--blue-700);
-  --tip-info: var(--blue-500);
-}
-
-[color-scheme="dark"] {
-  color-scheme: dark;
-  --shadow: var(--black);
-  --surface-000: var(--black);
-  --surface-100: var(--gray-900);
-  --surface-200: var(--gray-800);
-  --surface-300: var(--gray-700);
-  --surface-400: var(--gray-600);
-  --surface-500: var(--gray-500);
-  --focus: var(--blue-400);
-  --hover: var(--blue-800);
-  --active: var(--blue-900);
-  --text: var(--white);
-  --text-hover: var(--blue-300);
-  --text-light: var(--gray-500);
-  --text-faint: var(--gray-700);
-  --text-output: var(--yellow-300);
-  --tip-surface: var(--blue-900);
-  --tip-border: var(--blue-400);
-  --tip-text: var(--blue-200);
-  --tip-info: var(--blue-400);
 }
 
 * {
