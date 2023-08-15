@@ -10,14 +10,11 @@ html {
   --stop-color-02: var(--blue-400);
 }
 
-[color-scheme="light"] {
-  --stop-color-01: var(--blue-900);
-  --stop-color-02: var(--blue-400);
-}
-
-[color-scheme="dark"] {
-  --stop-color-01: var(--blue-400);
-  --stop-color-02: var(--blue-800);
+@media (prefers-color-scheme: dark) {
+  html {
+    --stop-color-01: var(--blue-400);
+    --stop-color-02: var(--blue-800);
+  }
 }
 
 body {
