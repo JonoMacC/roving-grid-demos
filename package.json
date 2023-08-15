@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "roving-grid-ux": "^1.0.3"
   }
 }
