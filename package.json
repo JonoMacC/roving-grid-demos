@@ -1,16 +1,14 @@
 {
   "name": "roving-grid-demos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "Jon MacCaull",
-  "license": "MIT",
   "devDependencies": {
-    "parcel": "^2.9.3"
-  },
-  "dependencies": {
-    "roving-grid-ux": "^1.0.2"
+    "vite": "^4.4.5"
   }
 }
