@@ -10,5 +10,6 @@ export default defineConfig({
         glyphs: resolve(__dirname, "glyph-browser.html"),
       },
     },
+    minify: false,
   },
 });
