@@ -266,7 +266,6 @@ document.addEventListener("keydown", (e) => {
     const cells = grid.querySelectorAll(".cell");
     const centerIndex = calculateCenterIndex(rows, columns);
     const cell = cells[centerIndex];
-    cell.tabIndex = 0;
     cell.focus();
   }
 });
