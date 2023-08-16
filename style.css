@@ -202,6 +202,7 @@ footer {
   font-weight: 600;
   display: flex;
   width: 100%;
+  background-color: var(--surface-000);
 }
 
 footer a {
@@ -231,7 +232,7 @@ footer a:focus {
   transform-style: preserve-3d;
   z-index: -1;
   overflow: hidden;
-  background-color: var(--surface-000);
+  background-color: var(--blue-900);
 }
 
 .horizon {
@@ -272,6 +273,7 @@ footer a:focus {
   background-repeat: repeat;
   animation: track 6s linear infinite;
   mask-image: linear-gradient(transparent, black 75%, black 85%, transparent);
+  -webkit-mask-image: linear-gradient(transparent, black 75%, black 85%, transparent);
   z-index: 1;
   mix-blend-mode: color-dodge;
 }
