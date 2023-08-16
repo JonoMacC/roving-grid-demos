@@ -12,24 +12,15 @@
  }
 </style>
 <g clip-path="url(#clip0_7_52)">
-<rect width="10" height="10" transform="translate(1 1)" fill="white"/>
-<rect class="step-1" x="1" y="1" width="10" height="10" fill="#1F87FF"/>
-<rect width="10" height="10" transform="translate(11 1)" fill="white"/>
-<rect class="step-1" x="11" y="1" width="10" height="10" fill="#1F87FF"/>
-<rect width="10" height="10" transform="translate(21 1)" fill="white"/>
-<rect class="step-2" x="21" y="1" width="10" height="10" fill="#53A2FD"/>
-<rect width="10" height="10" transform="translate(1 11)" fill="white"/>
-<rect class="step-1" x="1" y="11" width="10" height="10" fill="#1F87FF"/>
-<rect width="10" height="10" transform="translate(11 11)" fill="white"/>
-<rect class="step-1" x="11" y="11" width="10" height="10" fill="#1F87FF"/>
-<rect width="10" height="10" transform="translate(21 11)" fill="white"/>
-<rect class="step-3" x="21" y="11" width="10" height="10" fill="#8ABCF4"/>
-<rect width="10" height="10" transform="translate(1 21)" fill="white"/>
-<rect class="step-2" x="1" y="21" width="10" height="10" fill="#53A2FD"/>
-<rect width="10" height="10" transform="translate(11 21)" fill="white"/>
-<rect class="step-3" x="11" y="21" width="10" height="10" fill="#8ABCF4"/>
-<rect width="10" height="10" transform="translate(21 21)" fill="white"/>
-<rect class="step-4" x="21" y="21" width="10" height="10" fill="#D4E7FD"/>
+<rect class="step-1" x="1" y="1" width="10" height="10"/>
+<rect class="step-1" x="11" y="1" width="10" height="10" />
+<rect class="step-2" x="21" y="1" width="10" height="10"/>
+<rect class="step-1" x="1" y="11" width="10" height="10"/>
+<rect class="step-1" x="11" y="11" width="10" height="10" />
+<rect class="step-3" x="21" y="11" width="10" height="10"/>
+<rect class="step-2" x="1" y="21" width="10" height="10" />
+<rect class="step-3" x="11" y="21" width="10" height="10"/>
+<rect class="step-4" x="21" y="21" width="10" height="10" />
 </g>
 <defs>
 <clipPath id="clip0_7_52">
