@@ -69,7 +69,7 @@ nav ul {
   gap: var(--space-3);
   width: 100%;
   justify-content: center;
-  counter-set: card-counter;
+  counter-reset: card-counter;
   perspective: 1000px;
 }
 

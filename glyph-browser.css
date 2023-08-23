@@ -47,17 +47,18 @@ main {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 5rem);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%/5, 5rem), 1fr));
 }
 
 .glyph {
   font-family: "Space Mono", monospace;
   cursor: pointer;
   user-select: none;
+  -webkit-user-select: none;
   position: relative;
   aspect-ratio: 1 / 1;
   width: 100%;
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 6.667vw - 0.167rem, 1.5rem);
   outline-offset: -2px;
   outline-width: 2px;
   outline-style: solid;
